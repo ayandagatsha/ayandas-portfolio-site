@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Graphic Designer'
+const name = 'Web Developer'
 export const siteTitle = 'Ayanda\'s Portfolio'
 
 export default function Layout({ children, home }) {
@@ -30,10 +30,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/headshot.png"
+              src="/images/preofile.gif"
               className={utilStyles.borderCircle}
               height={230}
-              width={200}
+              width={340}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
