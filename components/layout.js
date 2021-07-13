@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
             <Image
               priority
               src="/images/preofile.gif"
-              className={utilStyles.borderCircle}
+             
               height={230}
               width={340}
               alt={name}
