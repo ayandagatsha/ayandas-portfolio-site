@@ -45,7 +45,7 @@ export default function Home() {
 
 
 
- <Link href="http://localhost:3000/portfolio/projects">
+ <Link href="/portfolio/projects">
    <a>
 
  
