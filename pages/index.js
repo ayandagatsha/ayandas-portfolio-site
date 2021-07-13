@@ -13,7 +13,7 @@ export default function Home() {
         <p>
           I enjoy telling computers what to do...{' '}since sooner or later,
           they end up doing what I say.{' '} Check out some of what I've been able to create: {''}
-          <a href="http://localhost:3000/portfolio/projects" >Projects</a>
+          <a href="/portfolio/projects" >Projects</a>
         </p>
       </section>
     </Layout>
